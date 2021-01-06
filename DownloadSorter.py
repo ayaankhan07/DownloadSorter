@@ -19,7 +19,7 @@ def move_files(extension, type):
 Extensions = [['*.wav', 'Music'], ['*.mp3', 'Music'], ['*.sh', 'Applications'], ['*.zip', 'Compressed'],
               ['*.rar', 'Compressed'], ['*.7z', 'Compressed'], ['*.txt', 'Documents'], ['*.apk', 'Applications'],
               ['*.exe', 'Applications'], ['*.jpeg', 'Photos'], ['*.jpg', 'Photos'], ['*.png', 'Photos'],
-              ['*.mp4', 'Videos'], ['*.mkv', 'Videos']]
+              ['*.mp4', 'Videos'], ['*.mkv', 'Videos'], ['*.3gp','Videos']]
 
 while True:
     for row in Extensions:
